@@ -37,7 +37,6 @@ class MainActivity : AppCompatActivity() {
             queue.add(request)
         }
 
-
         val annoyingExApp = (application as AnnoyingExApp)
         val workerManager = annoyingExApp.workerManager
 
